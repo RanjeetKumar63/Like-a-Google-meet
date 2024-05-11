@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#start{
+  width: 120px;
+  height: 50px;
+  /* display: wrap; */
+  background: aqua;
+  color: red;
+  border-radius: 200px;
+  box-shadow: 2px 2px 4px green ;
+  
+
+ 
+  
+}
+.box{
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  margin-left: 400px;
+  padding: 50px;
+  z-index: 0.9;
+
+  
+}
+
+#video{
+  
+  padding: 100px;
+  background: grey;
+  overflow-x: hidden;
+  border: 2px solid black;
+}
+.vid{
+  
+  align-items: center;
+  justify-content: center;
+
+}
+
+#start:hover{
+  background: #111;
+  font-size: large;
+  color: #fff;
+}
